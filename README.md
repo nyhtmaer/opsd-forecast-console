@@ -4,25 +4,6 @@
 A day-ahead (24-step) electric load forecasting system using OPSD data for Germany (DE), France (FR), and Spain (ES). Includes classical and neural forecasting, anomaly detection, live simulation, and a simple dashboard.
 
 ---
-
-## Directory Structure
-
-.
-├── README.md
-├── requirements.txt
-├── config.yaml
-├── data/                 # Place OPSD CSV here
-├── src/
-│   ├── forecast.py
-│   ├── anomaly.py
-│   ├── live_loop.py
-│   └── dashboard_app.py
-├── outputs/              # Forecasts, anomalies, logs
-└── notebooks/
-    └── exploration.ipynb
-
------
-
 ## Installation
 
 1.  Install dependencies:
