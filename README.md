@@ -35,9 +35,3 @@ streamlit run src/dashboard_app.py
 
 -----
 
-## Notes
-
-  * **Configuration**: Use `config.yaml` to adjust target countries, column names, detection thresholds, and model hyperparameters.
-  * **Data**: The OPSD CSV dataset is **not** included in this repository and must be downloaded separately.
-
-<!-- end list -->
