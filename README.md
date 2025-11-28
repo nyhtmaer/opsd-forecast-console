@@ -37,35 +37,7 @@ A day-ahead (24-step) electric load forecasting system using OPSD data for Germa
 -----
 
 ## Usage
-
-### 1\. Forecasting
-
-Run the forecasting module to generate predictions using SARIMA and GRU models:
-
-```bash
-python src/forecast.py
-```
-
-### 2\. Anomaly Detection
-
-Analyze residuals and detect anomalies in the load data:
-
-```bash
-python src/anomaly.py
-```
-
-### 3\. Live Simulation
-
-Simulate a live environment where the model adapts to incoming data (using GRU online learning):
-
-```bash
-python src/live_loop.py
-```
-
-### 4\. Dashboard
-
-Launch the interactive Streamlit dashboard to visualize results:
-
+### **Run like so**
 ```bash
 streamlit run src/dashboard_app.py
 ```
