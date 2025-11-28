@@ -1,0 +1,160 @@
+{
+  "selection_criterion": "BIC (Bayesian Information Criterion - preferred for larger datasets)",
+  "grid_parameters": {
+    "p_values": [
+      0,
+      1,
+      2
+    ],
+    "d_values": [
+      0,
+      1
+    ],
+    "q_values": [
+      0,
+      1,
+      2
+    ],
+    "P_values": [
+      0,
+      1
+    ],
+    "D_values": [
+      0,
+      1
+    ],
+    "Q_values": [
+      0,
+      1
+    ],
+    "seasonal_period": 24
+  },
+  "selected_models": {
+    "DE": {
+      "selected_by_BIC": {
+        "order": [
+          2,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          24
+        ],
+        "AIC": 655706.67,
+        "BIC": 655766.89,
+        "model_notation": "SARIMA(2, 0, 2) x (1, 1, 1, 24)"
+      },
+      "selected_by_AIC": {
+        "order": [
+          2,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          24
+        ],
+        "AIC": 655706.67,
+        "BIC": 655766.89,
+        "model_notation": "SARIMA(2, 0, 2) x (1, 1, 1, 24)"
+      },
+      "data_split": {
+        "train_size": 40320,
+        "dev_size": 5040,
+        "test_size": 5040,
+        "train_period": "2014-12-31 to 2019-08-07",
+        "dev_period": "2019-08-07 to 2020-03-04",
+        "test_period": "2019-08-07 to 2020-03-04"
+      }
+    },
+    "FR": {
+      "selected_by_BIC": {
+        "order": [
+          2,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          24
+        ],
+        "AIC": 634677.01,
+        "BIC": 634737.24,
+        "model_notation": "SARIMA(2, 0, 2) x (1, 1, 1, 24)"
+      },
+      "selected_by_AIC": {
+        "order": [
+          2,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          24
+        ],
+        "AIC": 634677.01,
+        "BIC": 634737.24,
+        "model_notation": "SARIMA(2, 0, 2) x (1, 1, 1, 24)"
+      },
+      "data_split": {
+        "train_size": 40320,
+        "dev_size": 5040,
+        "test_size": 5040,
+        "train_period": "2014-12-31 to 2019-08-07",
+        "dev_period": "2019-08-07 to 2020-03-04",
+        "test_period": "2019-08-07 to 2020-03-04"
+      }
+    },
+    "IT": {
+      "selected_by_BIC": {
+        "order": [
+          2,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          24
+        ],
+        "AIC": 628031.75,
+        "BIC": 628091.97,
+        "model_notation": "SARIMA(2, 0, 2) x (1, 1, 1, 24)"
+      },
+      "selected_by_AIC": {
+        "order": [
+          2,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          24
+        ],
+        "AIC": 628031.75,
+        "BIC": 628091.97,
+        "model_notation": "SARIMA(2, 0, 2) x (1, 1, 1, 24)"
+      },
+      "data_split": {
+        "train_size": 40320,
+        "dev_size": 5040,
+        "test_size": 5040,
+        "train_period": "2014-12-31 to 2019-08-07",
+        "dev_period": "2019-08-07 to 2020-03-04",
+        "test_period": "2019-08-07 to 2020-03-04"
+      }
+    }
+  }
+}

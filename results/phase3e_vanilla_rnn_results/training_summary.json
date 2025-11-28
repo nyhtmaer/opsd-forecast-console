@@ -1,0 +1,20 @@
+{
+  "DE": {
+    "num_parameters": 59608,
+    "training_time_seconds": 84.68994235992432,
+    "final_epoch": 22,
+    "best_dev_loss": 0.07270465080479258
+  },
+  "FR": {
+    "num_parameters": 59608,
+    "training_time_seconds": 103.26868844032288,
+    "final_epoch": 27,
+    "best_dev_loss": 0.045734349629032965
+  },
+  "IT": {
+    "num_parameters": 59608,
+    "training_time_seconds": 95.7091338634491,
+    "final_epoch": 25,
+    "best_dev_loss": 0.06443649236921613
+  }
+}
